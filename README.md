@@ -26,4 +26,4 @@ Vite per il build system
 Vercel per il deploy
 
 🔗 Link al sito
-👉 cv-stella-marucelli.vercel.app
+👉 [cv-stella-marucelli.vercel.app](https://cv-stella-marucelli.vercel.app/)
