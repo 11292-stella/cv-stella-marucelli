@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+.cv-layout {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.cv-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  background: #420382;
+  background: linear-gradient(
+    90deg,
+    rgba(66, 3, 130, 0.52) 34%,
+    rgba(208, 160, 223, 0.6) 57%,
+    rgba(106, 47, 145, 0.85) 100%
+  );
+
+  padding: 2rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+}
+
+.cv-content {
+  flex: 1;
+  padding: 2rem;
+  margin-left: 400px;
+}
+
+.cv-photo {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+  color: rgb(18, 22, 22);
+  font-family: "Lato", sans-serif;
+  font-size: 2.5rem;
+}
+
+p {
+  color: rgb(18, 22, 22);
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+}
+.contact-link {
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.3s;
+}
+
+.contact-link:hover {
+  color: #f5f4fa;
+}
+
+h2 {
+  color: rgb(18, 22, 22);
+  font-family: "Lato", sans-serif;
+  font-size: 2.5rem;
+}
+
+h4 {
+  color: rgb(18, 22, 22);
+  font-family: "Lato", sans-serif;
+}
