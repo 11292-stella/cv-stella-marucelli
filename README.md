@@ -1,12 +1,29 @@
-# React + Vite
+📄 CV Online – Stella Marucelli
+Benvenuti nel mio curriculum digitale! Questo progetto è una versione interattiva e responsive del mio CV, sviluppata con React e ospitata su Vercel.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌟 Descrizione
+Il sito presenta il mio profilo professionale come Full Stack Developer con background in grafica pubblicitaria. Include:
 
-Currently, two official plugins are available:
+📌 Informazioni personali e contatti
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎓 Formazione (Grafica Pubblicitaria + Corso Full Stack Epicode)
 
-## Expanding the ESLint configuration
+💼 Esperienze e progetti realizzati
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧠 Competenze tecniche e soft skills
+
+🖼️ Firma digitale e consenso GDPR
+
+🛠️ Tecnologie utilizzate
+React con JSX
+
+CSS custom + Bootstrap
+
+Font Awesome per le icone
+
+Vite per il build system
+
+Vercel per il deploy
+
+🔗 Link al sito
+👉 cv-stella-marucelli.vercel.app
