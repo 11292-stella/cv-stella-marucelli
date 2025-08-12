@@ -36,7 +36,7 @@ const Cv = function () {
         </p>
         <p>
           <a
-            href="tel:+393331234567"
+            href="tel:+393780662596"
             className="contact-link d-flex align-items-center justify-content-center"
           >
             <i
@@ -57,7 +57,7 @@ const Cv = function () {
               className="fab fa-github"
               style={{ fontSize: "18px", color: "#477cb4ff" }}
             ></i>
-            <span className="ms-2">GitHub</span>
+            <span className="ms-2">https://github.com/11292-stella</span>
           </a>
         </p>
         <p>
@@ -71,7 +71,9 @@ const Cv = function () {
               className="fab fa-linkedin"
               style={{ fontSize: "18px", color: "#477cb4ff" }}
             ></i>
-            <span className="ms-2">LinkedIn</span>
+            <span className="ms-2">
+              https://www.linkedin.com/in/stella-marucelli-0992081a3/
+            </span>
           </a>
         </p>
         {/* ... */}
@@ -139,7 +141,9 @@ const Cv = function () {
         </p>
         <h4>
           ...tutti i miei progetti{" "}
-          <a href="https://portfolio-stella-lyart.vercel.app/home">Portfolio</a>
+          <a href="https://portfolio-stella-lyart.vercel.app/home">
+            Portfolio - https://portfolio-stella-lyart.vercel.app/home
+          </a>
         </h4>
         <br />
         <p>
