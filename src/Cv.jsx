@@ -5,7 +5,7 @@ const Cv = function () {
   return (
     <div className="cv-layout">
       <div className="cv-sidebar">
-        <img src="/im.jpg" alt="Foto profilo" className="cv-photo" />
+        <img src="/imp.png" alt="Foto profilo" className="cv-photo" />
         <h3>Stella Marucelli</h3>
         <p className="d-flex align-items-center justify-content-center">
           <i
