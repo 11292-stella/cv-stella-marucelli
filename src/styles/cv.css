@@ -2,38 +2,32 @@
 
 .cv-layout {
   display: flex;
-  flex-direction: row;
-  min-height: 100vh;
+  align-items: flex-start;
 }
 
 .cv-sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 300px;
-  height: 100vh;
-  background: #420382;
+  flex: 0 0 300px;
   background: linear-gradient(
     90deg,
     rgba(66, 3, 130, 0.52) 34%,
     rgba(208, 160, 223, 0.6) 57%,
     rgba(106, 47, 145, 0.85) 100%
   );
-
   padding: 2rem;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
-  overflow-y: auto;
+  position: sticky;
+  top: 0;
+  height: fit-content;
 }
 
 .cv-content {
   flex: 1;
   padding: 2rem;
-  margin-left: 400px;
 }
 
 .cv-photo {
   width: 60%;
-  height: 40%;
+  height: auto;
   border-radius: 8px;
   margin-bottom: 1rem;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
@@ -63,10 +57,33 @@ p {
 h2 {
   color: rgb(18, 22, 22);
   font-family: "Lato", sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 h4 {
   color: rgb(18, 22, 22);
   font-family: "Lato", sans-serif;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.list-unstyled li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  color: rgb(18, 22, 22);
+  font-family: "Lato", sans-serif;
+  font-size: 2.5rem;
+}
+
+.luogo {
+  color: #5c5c5c;
 }
