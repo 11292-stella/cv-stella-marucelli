@@ -143,7 +143,11 @@ const Cv = function () {
         </p>
         <h4>
           Qualifica professionale in Grafica Pubblicitaria 📅 Settembre 2009 –
-          Agosto 2011
+          Agosto 2011 <br />
+          <span className="luogo">
+            Istituto Statale di istruzione superiore Guglielmo Marconi
+          </span>{" "}
+          <br />
         </h4>
         <p>
           Percorso formativo in comunicazione visiva e progettazione grafica,
