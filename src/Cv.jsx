@@ -90,43 +90,113 @@ const Cv = function () {
           Conoscenze <br /> Informatiche
         </h2>
 
-        <ul className="list-unstyled">
-          <li className="d-flex align-items-center">
+        <div className="cv-skills">
+          <p>
+            <strong>Frontend</strong>
+          </p>
+          <div className="d-flex flex-wrap gap-3 mb-3">
             <i
               className="fab fa-html5"
               style={{ fontSize: "20px", color: "#E34F26" }}
+              title="HTML5"
             ></i>
-            <span className="ms-2">HTML5</span>
-          </li>
-          <li className="d-flex align-items-center">
             <i
               className="fab fa-css3-alt"
               style={{ fontSize: "20px", color: "#1572B6" }}
+              title="CSS3"
             ></i>
-            <span className="ms-2">CSS3</span>
-          </li>
-          <li className="d-flex align-items-center">
             <i
               className="fab fa-js"
               style={{ fontSize: "20px", color: "#F7DF1E" }}
+              title="JavaScript"
             ></i>
-            <span className="ms-2">JavaScript</span>
-          </li>
-          <li className="d-flex align-items-center">
             <i
-              className="fab fa-java"
-              style={{ fontSize: "20px", color: "#007396" }}
+              className="fab fa-react"
+              style={{ fontSize: "20px", color: "#61DBFB" }}
+              title="React"
             ></i>
-            <span className="ms-2">Java</span>
-          </li>
-          <li className="d-flex align-items-center">
             <i
               className="fab fa-bootstrap"
               style={{ fontSize: "20px", color: "#7952B3" }}
+              title="Bootstrap"
             ></i>
-            <span className="ms-2">Bootstrap</span>
-          </li>
-        </ul>
+          </div>
+
+          <p>
+            <strong>Backend</strong>
+          </p>
+          <div className="d-flex flex-wrap gap-3 mb-3">
+            <i
+              className="fab fa-java"
+              style={{ fontSize: "20px", color: "#007396" }}
+              title="Java"
+            ></i>
+            <i
+              className="fas fa-server"
+              style={{ fontSize: "20px", color: "#6c757d" }}
+              title="Spring Boot"
+            ></i>
+          </div>
+
+          <p>
+            <strong>Database</strong>
+          </p>
+          <div className="d-flex flex-wrap gap-3 mb-3">
+            <i
+              className="fas fa-database"
+              style={{ fontSize: "20px", color: "#336791" }}
+              title="PostgreSQL"
+            ></i>
+          </div>
+
+          <p>
+            <strong>Versionamento</strong>
+          </p>
+          <div className="d-flex flex-wrap gap-3 mb-3">
+            <i
+              className="fab fa-git-alt"
+              style={{ fontSize: "20px", color: "#F1502F" }}
+              title="Git"
+            ></i>
+          </div>
+
+          <p>
+            <strong>Deployment</strong>
+          </p>
+          <div className="d-flex flex-wrap gap-3 mb-3">
+            <i
+              className="fas fa-cloud-upload-alt"
+              style={{ fontSize: "20px", color: "#477cb4ff" }}
+              title="Vercel"
+            ></i>
+          </div>
+
+          <p>
+            <strong>In apprendimento</strong>
+          </p>
+          <div className="d-flex flex-wrap gap-3 mb-3">
+            <i
+              className="fab fa-angular"
+              style={{ fontSize: "20px", color: "#DD0031" }}
+              title="Angular"
+            ></i>
+            <i
+              className="fab fa-python"
+              style={{ fontSize: "20px", color: "#3776AB" }}
+              title="Python"
+            ></i>
+            <i
+              className="fab fa-docker"
+              style={{ fontSize: "20px", color: "#0db7ed" }}
+              title="Docker"
+            ></i>
+            <i
+              className="fab fa-js-square"
+              style={{ fontSize: "20px", color: "#F7DF1E" }}
+              title="TypeScript"
+            ></i>
+          </div>
+        </div>
       </div>
 
       <div className="cv-content">
@@ -189,6 +259,38 @@ const Cv = function () {
           le mie capacità comunicative, la pazienza e l’attenzione al dettaglio
         </p>
 
+        <h2>💻 Progetti</h2>
+        <h4>
+          ✨Sneacky Workout <br />
+          <a
+            href=" https://front-project-personal-trainer.vercel.app/home"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live demo
+          </a>{" "}
+        </h4>
+        <p>
+          App web per la creazione di schede di allenamento personalizzate{" "}
+          <br />
+          Tecnologie: React, Java, PostgreSQL, REST API
+        </p>
+
+        <h4>
+          ✨CV Online <br />
+          <a
+            href=" https://cv-stella-marucelli.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live demo
+          </a>{" "}
+        </h4>
+        <p>
+          Curriculum interattivo sviluppato in React <br />
+          Tecnologie: React, Vercel
+        </p>
+
         <h2>✨Portfolio online:</h2>
         <h4>
           <span>
@@ -198,6 +300,10 @@ const Cv = function () {
           <a href="https://portfolio-stella-lyart.vercel.app/home">
             Portfolio - https://portfolio-stella-lyart.vercel.app/home
           </a>
+        </h4>
+        <h4>
+          Sono disponibile per un colloquio conoscitivo e pronta a mettermi in
+          gioco in un team dinamico e orientato all’innovazione.
         </h4>
         <br />
         <p>
