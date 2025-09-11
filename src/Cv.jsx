@@ -308,7 +308,7 @@ const Cv = function () {
             portfolio, landing page, React apps.
           </span>
           <a href="upwork.com/freelancers/~017c7f92020a737265">
-            Upwork: upwork.com/freelancers/~017c7f92020a737265
+            upwork.com/freelancers/~017c7f92020a737265
           </a>
         </h4>
         <h4>
