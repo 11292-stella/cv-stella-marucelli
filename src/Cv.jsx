@@ -301,6 +301,16 @@ const Cv = function () {
             Portfolio - https://portfolio-stella-lyart.vercel.app/home
           </a>
         </h4>
+        <h2>✨Upwork:</h2>
+        <h4>
+          <span>
+            Disponibile anche su Upwork per progetti freelance: sviluppo web,
+            portfolio, landing page, React apps.
+          </span>
+          <a href="upwork.com/freelancers/~017c7f92020a737265">
+            Upwork: upwork.com/freelancers/~017c7f92020a737265
+          </a>
+        </h4>
         <h4>
           Sono disponibile per un colloquio conoscitivo e pronta a mettermi in
           gioco in un team dinamico e orientato all’innovazione.
