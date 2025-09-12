@@ -262,7 +262,7 @@ const Cv = function () {
         <h2>🛠️Progetti</h2>
 
         <div className="project">
-          <h4>Sneaky Workout</h4>
+          <h4>🌟Sneaky Workout</h4>
           <p>
             Web app per la creazione di schede di allenamento personalizzate,
             con autenticazione e gestione utenti.
@@ -280,7 +280,7 @@ const Cv = function () {
         </div>
 
         <div className="project">
-          <h4>CV Online</h4>
+          <h4>🌟CV Online</h4>
           <p>
             Curriculum interattivo sviluppato in React, con layout responsive e
             deploy su Vercel.
@@ -298,7 +298,7 @@ const Cv = function () {
         </div>
 
         <div className="project">
-          <h4>Portfolio online</h4>
+          <h4>📁Portfolio online</h4>
           <p>
             Raccolta dei miei progetti web, con sezioni dedicate a frontend,
             backend e design.
@@ -313,7 +313,7 @@ const Cv = function () {
           </p>
         </div>
 
-        <h2>Upwork</h2>
+        <h2>🚀Upwork</h2>
         <p>
           Disponibile anche su Upwork per progetti freelance: sviluppo web,
           portfolio, landing page, React apps.
