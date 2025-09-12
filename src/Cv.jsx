@@ -95,106 +95,106 @@ const Cv = function () {
             <strong>Frontend</strong>
           </p>
           <div className="d-flex flex-wrap gap-3 mb-3">
-            <i
-              className="fab fa-html5"
-              style={{ fontSize: "20px", color: "#E34F26" }}
-              title="HTML5"
-            ></i>
-            <i
-              className="fab fa-css3-alt"
-              style={{ fontSize: "20px", color: "#1572B6" }}
-              title="CSS3"
-            ></i>
-            <i
-              className="fab fa-js"
-              style={{ fontSize: "20px", color: "#F7DF1E" }}
-              title="JavaScript"
-            ></i>
-            <i
-              className="fab fa-react"
-              style={{ fontSize: "20px", color: "#61DBFB" }}
-              title="React"
-            ></i>
-            <i
-              className="fab fa-bootstrap"
-              style={{ fontSize: "20px", color: "#7952B3" }}
-              title="Bootstrap"
-            ></i>
+            <div className="skill-item">
+              <i className="fab fa-html5" style={{ color: "#E34F26" }}></i>
+              <span>HTML5</span>
+            </div>
+            <div className="skill-item">
+              <i className="fab fa-css3-alt" style={{ color: "#1572B6" }}></i>
+              <span>CSS3</span>
+            </div>
+            <div className="skill-item">
+              <i className="fab fa-js" style={{ color: "#F7DF1E" }}></i>
+              <span>JavaScript</span>
+            </div>
+            <div className="skill-item">
+              <i className="fab fa-react" style={{ color: "#61DBFB" }}></i>
+              <span>React</span>
+            </div>
+            <div className="skill-item">
+              <i className="fab fa-bootstrap" style={{ color: "#7952B3" }}></i>
+              <span>Bootstrap</span>
+            </div>
           </div>
 
           <p>
             <strong>Backend</strong>
           </p>
           <div className="d-flex flex-wrap gap-3 mb-3">
-            <i
-              className="fab fa-java"
-              style={{ fontSize: "20px", color: "#007396" }}
-              title="Java"
-            ></i>
-            <i
-              className="fas fa-server"
-              style={{ fontSize: "20px", color: "#6c757d" }}
-              title="Spring Boot"
-            ></i>
+            <div className="skill-item">
+              <i className="fab fa-java" style={{ color: "#007396" }}></i>
+              <span>Java</span>
+            </div>
+            <div className="skill-item">
+              <i className="fas fa-server" style={{ color: "#6c757d" }}></i>
+              <span>Spring Boot</span>
+            </div>
           </div>
 
           <p>
             <strong>Database</strong>
           </p>
           <div className="d-flex flex-wrap gap-3 mb-3">
-            <i
-              className="fas fa-database"
-              style={{ fontSize: "20px", color: "#336791" }}
-              title="PostgreSQL"
-            ></i>
+            <div className="skill-item">
+              <i className="fas fa-database" style={{ color: "#336791" }}></i>
+              <span>PostgreSQL</span>
+            </div>
           </div>
 
           <p>
             <strong>Versionamento</strong>
           </p>
           <div className="d-flex flex-wrap gap-3 mb-3">
-            <i
-              className="fab fa-git-alt"
-              style={{ fontSize: "20px", color: "#F1502F" }}
-              title="Git"
-            ></i>
+            <div className="skill-item">
+              <i className="fab fa-git-alt" style={{ color: "#F1502F" }}></i>
+              <span>Git</span>
+            </div>
           </div>
 
           <p>
             <strong>Deployment</strong>
           </p>
           <div className="d-flex flex-wrap gap-3 mb-3">
-            <i
-              className="fas fa-cloud-upload-alt"
-              style={{ fontSize: "20px", color: "#477cb4ff" }}
-              title="Vercel"
-            ></i>
+            <div className="skill-item">
+              <i
+                className="fas fa-cloud-upload-alt"
+                style={{ color: "#477cb4ff" }}
+              ></i>
+              <span>Vercel</span>
+            </div>
           </div>
 
           <p>
             <strong>In apprendimento</strong>
           </p>
           <div className="d-flex flex-wrap gap-3 mb-3">
-            <i
-              className="fab fa-angular"
-              style={{ fontSize: "20px", color: "#DD0031" }}
-              title="Angular"
-            ></i>
-            <i
-              className="fab fa-python"
-              style={{ fontSize: "20px", color: "#3776AB" }}
-              title="Python"
-            ></i>
-            <i
-              className="fab fa-docker"
-              style={{ fontSize: "20px", color: "#0db7ed" }}
-              title="Docker"
-            ></i>
-            <i
-              className="fab fa-js-square"
-              style={{ fontSize: "20px", color: "#F7DF1E" }}
-              title="TypeScript"
-            ></i>
+            <div className="skill-item">
+              <i className="fab fa-angular" style={{ color: "#DD0031" }}></i>
+              <span>Angular</span>
+            </div>
+            <div className="skill-item">
+              <i className="fab fa-python" style={{ color: "#3776AB" }}></i>
+              <span>Python</span>
+            </div>
+            <div className="skill-item">
+              <i className="fab fa-docker" style={{ color: "#0db7ed" }}></i>
+              <span>Docker</span>
+            </div>
+          </div>
+
+          <div className="project">
+            <h4>Certificazioni</h4>
+            <p>
+              Epicode Talent
+              <br />
+              <a
+                href="https://talent.epicode.com/talent/549fd8c5-b132-433a-8a03-c38daf4a8960"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visualizza profilo
+              </a>
+            </p>
           </div>
         </div>
       </div>
@@ -259,62 +259,78 @@ const Cv = function () {
           le mie capacità comunicative, la pazienza e l’attenzione al dettaglio
         </p>
 
-        <h2>💻 Progetti</h2>
-        <h4>
-          ✨Sneacky Workout <br />
-          <a
-            href=" https://front-project-personal-trainer.vercel.app/home"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Live demo
-          </a>{" "}
-        </h4>
+        <h2>🛠️Progetti</h2>
+
+        <div className="project">
+          <h4>Sneaky Workout</h4>
+          <p>
+            Web app per la creazione di schede di allenamento personalizzate,
+            con autenticazione e gestione utenti.
+            <br />
+            <strong>Tecnologie:</strong> React, Java, PostgreSQL, RESTful API
+            <br />
+            <a
+              href="https://front-project-personal-trainer.vercel.app/home"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              🔗 Live demo
+            </a>
+          </p>
+        </div>
+
+        <div className="project">
+          <h4>CV Online</h4>
+          <p>
+            Curriculum interattivo sviluppato in React, con layout responsive e
+            deploy su Vercel.
+            <br />
+            <strong>Tecnologie:</strong> React, Vercel
+            <br />
+            <a
+              href="https://cv-stella-marucelli.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              🔗 Live demo
+            </a>
+          </p>
+        </div>
+
+        <div className="project">
+          <h4>Portfolio online</h4>
+          <p>
+            Raccolta dei miei progetti web, con sezioni dedicate a frontend,
+            backend e design.
+            <br />
+            <a
+              href="https://portfolio-stella-lyart.vercel.app/home"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              🔗 Visita il portfolio
+            </a>
+          </p>
+        </div>
+
+        <h2>Upwork</h2>
         <p>
-          App web per la creazione di schede di allenamento personalizzate{" "}
+          Disponibile anche su Upwork per progetti freelance: sviluppo web,
+          portfolio, landing page, React apps.
           <br />
-          Tecnologie: React, Java, PostgreSQL, REST API
-        </p>
-
-        <h4>
-          ✨CV Online <br />
           <a
-            href=" https://cv-stella-marucelli.vercel.app"
+            href="https://www.upwork.com/freelancers/~017c7f92020a737265"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Live demo
-          </a>{" "}
-        </h4>
-        <p>
-          Curriculum interattivo sviluppato in React <br />
-          Tecnologie: React, Vercel
+            🔗 Profilo Upwork
+          </a>
         </p>
 
-        <h2>✨Portfolio online:</h2>
-        <h4>
-          <span>
-            Ecco il mio portfolio, dove ogni progetto racconta un pezzo del mio
-            percorso da sviluppatrice:
-          </span>
-          <a href="https://portfolio-stella-lyart.vercel.app/home">
-            Portfolio - https://portfolio-stella-lyart.vercel.app/home
-          </a>
-        </h4>
-        <h2>✨Upwork:</h2>
-        <h4>
-          <span>
-            Disponibile anche su Upwork per progetti freelance: sviluppo web,
-            portfolio, landing page, React apps.
-          </span>
-          <a href="upwork.com/freelancers/~017c7f92020a737265">
-            upwork.com/freelancers/~017c7f92020a737265
-          </a>
-        </h4>
-        <h4>
+        <p>
           Sono disponibile per un colloquio conoscitivo e pronta a mettermi in
           gioco in un team dinamico e orientato all’innovazione.
-        </h4>
+        </p>
         <br />
         <p>
           Stella Marucelli – Reggello
