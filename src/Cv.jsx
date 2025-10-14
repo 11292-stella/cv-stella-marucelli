@@ -74,15 +74,7 @@ const Cv = function () {
           </a>
         </p>
         {/* ... */}
-        <h2>Profilo</h2>
-        <p>
-          Sviluppatrice full stack con una forte passione per il design
-          funzionale e l’interazione utente. Dopo un percorso formativo
-          intensivo con Epicode, ho realizzato diversi progetti web che spaziano
-          dal frontend dinamico al backend in Java. Ogni progetto è stato
-          un’occasione per crescere, superare ostacoli e consolidare competenze
-          tecniche e creative
-        </p>
+
         <h2>Lingue</h2>
         <p>Inglese - base</p>
 
@@ -180,21 +172,62 @@ const Cv = function () {
               <i className="fab fa-docker" style={{ color: "#0db7ed" }}></i>
               <span>Docker</span>
             </div>
-          </div>
-
-          <div className="project">
-            <h4>Certificazioni</h4>
-            <p>
-              Epicode Talent
-              <br />
-              <a
-                href="https://talent.epicode.com/talent/549fd8c5-b132-433a-8a03-c38daf4a8960"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Visualizza profilo
-              </a>
-            </p>
+            <h2>🧠 Soft Skills</h2>
+            <div className="soft-skills">
+              <div className="skill">
+                <span>Comunicazione empatica (anche con i bug)</span>
+                <div className="bar">
+                  <div className="fill" style={{ width: "85%" }}></div>
+                </div>
+              </div>
+              <div className="skill">
+                <span>Problem solving creativo</span>
+                <div className="bar">
+                  <div className="fill" style={{ width: "90%" }}></div>
+                </div>
+              </div>
+              <div className="skill">
+                <span>
+                  Capacità di funzionare a livelli non sicuri di caffeina
+                </span>
+                <div className="bar">
+                  <div className="fill" style={{ width: "100%" }}></div>
+                </div>
+              </div>
+              <div className="skill">
+                <span>Adattabilità ai crash e ai cambi di rotta</span>
+                <div className="bar">
+                  <div className="fill" style={{ width: "80%" }}></div>
+                </div>
+              </div>
+              <div className="skill">
+                <span>Collaborazione e apprendimento continuo</span>
+                <div className="bar">
+                  <div className="fill" style={{ width: "90%" }}></div>
+                </div>
+              </div>
+              <div className="skill">
+                <span>Documentazione chiara e ironica</span>
+                <div className="bar">
+                  <div className="fill" style={{ width: "95%" }}></div>
+                </div>
+              </div>
+              <div className="skill">
+                <span>Pazienza da debugger</span>
+                <div className="bar">
+                  <div className="fill" style={{ width: "88%" }}></div>
+                </div>
+              </div>
+              <div className="skill">
+                <span>
+                  Curiosità instancabile (anche quando il terminale non
+                  risponde)
+                </span>
+                <div className="bar">
+                  <div className="fill" style={{ width: "92%" }}></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -202,6 +235,19 @@ const Cv = function () {
       <div className="cv-content">
         <h1>Stella Marucelli</h1>
         <h2>Junior Full Stack Developer</h2>
+        <h2>Profilo</h2>
+        <p>
+          Sviluppatrice full stack con background creativo e passione crescente
+          per il codice. <br />
+          Dopo un percorso intensivo con Epicode, ho affrontato ogni modulo come
+          una boss fight: frontend, backend, database, deployment, testato,
+          rotto e ricostruito. <br /> Ho realizzato progetti concreti, imparando
+          a cavarmela tra bug, documentazione e dosi non regolamentate di
+          caffeina. <br /> Continuo a studiare e sperimentare per trasformare
+          questa passione in una professione solida. <br /> Aperta a opportunità
+          in tutta Italia e pronta a trasferirmi. <br /> Cerco un team dove
+          crescere, contribuire e portare anche un po’ di ironia nel codice.
+        </p>
         <h2>🎓 Formazione</h2>
 
         <h4>Master Full Stack Developer – Epicode 📅 Gennaio – Agosto 2025</h4>
@@ -313,19 +359,22 @@ const Cv = function () {
           </p>
         </div>
 
-        <h2>🚀Upwork</h2>
-        <p>
-          Disponibile anche su Upwork per progetti freelance: sviluppo web,
-          portfolio, landing page, React apps.
-          <br />
+        <h2>🎓 Certificazioni</h2>
+        <div className="project">
+          <h4>Epicode Talent</h4>
+          <p>
+            Certificazione ottenuta al termine del percorso Full Stack
+            Developer, con valutazione positiva su progetti e competenze.
+          </p>
           <a
-            href="https://www.upwork.com/freelancers/~017c7f92020a737265"
+            href="https://talent.epicode.com/talent/549fd8c5-b132-433a-8a03-c38daf4a8960"
             target="_blank"
             rel="noopener noreferrer"
+            className="cert-link"
           >
-            🔗 Profilo Upwork
+            🔗 Visualizza profilo su Epicode Talent
           </a>
-        </p>
+        </div>
 
         <p>
           Sono disponibile per un colloquio conoscitivo e pronta a mettermi in
