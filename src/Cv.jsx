@@ -262,6 +262,15 @@ const Cv = function () {
           applicazioni web moderne, sia lato frontend che backend, lavorando su
           progetti individuali e di gruppo.
         </p>
+        <div className="corso">
+    <h4>Academy JEE (Java Enterprise Edition) 📅 Nov 2025 – Dic 2025</h4>
+    <p>
+      <strong>Adecco Formazione S.r.l. / Forma.Temp (200 ore)</strong> <br />
+      Corso intensivo di specializzazione sullo stack Java Enterprise. 
+      Focus su architetture backend, programmazione ad oggetti avanzata, 
+      gestione database e sviluppo di applicazioni scalabili in ambiente JEE.
+    </p>
+  </div>
         <h4>
           Qualifica professionale in Grafica Pubblicitaria 📅 Settembre 2009 –
           Agosto 2011 <br />
