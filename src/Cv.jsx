@@ -241,7 +241,7 @@ const Cv = function () {
   <h2>Junior Full Stack Developer & QA Analyst</h2>
   
   <h2>Profilo Professionale</h2>
-  <p>
+ <p>
     Sviluppatrice Full Stack formata con <strong>Epicode</strong>, con esperienza consolidata nell'<strong>Analisi Funzionale e QA Testing</strong> per sistemi gestionali complessi. <br />
     
     Specializzata nel testing software in ambienti demo e produzione, mi occupo di individuare criticità logiche e sistemistiche, documentandole in modo analitico per supportare il team di sviluppo nella risoluzione dei bug. <br />
@@ -280,16 +280,16 @@ const Cv = function () {
 
         <h2>💼 Esperienza lavorative</h2>
 
-        <h4>
+   <h4>
   Analista e Progettista di Software 📅 Dicembre 2025 – In corso <br />
   <span className="luogo">Sellogic S.r.l.</span> <br />
   <span className="luogo">Collazzone, Umbria, Italia (Remoto/Ibrido)</span>
 </h4>
 <p>
-  Collaborazione attiva nello sviluppo e nel controllo qualità di sistemi gestionali complessi. <br />
-  Mi occupo dell'analisi funzionale e del QA Testing su architetture integrate (Cassa, Mobile, Cloud), garantendo la stabilità delle release attraverso test di regressione e stress test. <br />
-  Responsabile della rilevazione e documentazione tecnica dei bug, della validazione dei fix e della verifica dei flussi dati per moduli critici come Logistica, Report & Analytics e sistemi di pagamento. <br />
-  Esperienza consolidata nel troubleshooting e nel supporto tecnico alla progettazione software.
+  Collaborazione strategica nello sviluppo e nel controllo qualità di sistemi gestionali integrati. <br />
+  Esecuzione di cicli di test funzionali, stress test e regressioni su piattaforme multi-modulo (Cassa, App Mobile, Backend Cloud). <br />
+  Responsabile dell'individuazione e della rendicontazione tecnica delle anomalie, con particolare focus sulla verifica dei flussi dati e sulla validazione dei fix rilasciati. <br />
+  Supporto tecnico alla progettazione per il miglioramento dell'esperienza utente e della stabilità delle release software.
 </p>
 
         <h4>
